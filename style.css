@@ -132,7 +132,7 @@ ul{
 
 /* Toggle menu icon */
 .side-menu:checked ~ nav{
-    max-height: 100%;
+    max-height: 70%;
 }
 .side-menu:checked ~ .hamb .hamb-line {
     background: transparent;
@@ -311,7 +311,8 @@ ul{
 /*=========================Row================*/
 .row::after {
     content: "";
-    display: table;
+    /*display: table;*/
+	display: block;
     clear: both;
     
 }
@@ -380,9 +381,9 @@ ul{
 }
 
 .services-icon {
-    height: 200px;
-    width: 200px;
-    margin-left: 20%;
+    height: 40%;
+    width: 70%;
+    margin-left: 15%;
     border-radius: 5%;
     box-shadow: 0px 0px 10px 0px rgb(25, 18, 2, 0.8);
 }
@@ -408,6 +409,11 @@ ul{
 }
 
 /*=================Projects=================*/
+
+#projects-section {
+	background-color: rgba(169, 144, 126, 0.2);
+}
+
 #Projects {
     text-align: center;
     padding: 5rem 2rem;
@@ -707,6 +713,10 @@ footer {
 		margin-bottom: 20px;
 	}
 	
+	.row-services {
+    padding-bottom: 3rem;
+	}
+	
 	/*======Projects=========*/
 	
 	#Projects {
@@ -744,10 +754,10 @@ footer {
     
 	}
 	
-	
+	/*
 	.column-text{
 		display: none;
-	}
+	}*/
 
 	
 	.btn-projects {
@@ -957,6 +967,11 @@ footer {
 		height: 550px;
 		line-height: 1.6;
 	}
+	
+	/*============Footer===================*/
+	footer {
+	margin-top: 250px;
+	}
 }
 /*
 @media screen and (max-width: 1024px) {
@@ -1055,7 +1070,8 @@ footer {
 		margin-bottom: 20px;
 	}
 	
-	/*======Projects=========*/
+	/*=====================================Projects======================================*/
+	
 	
 	#Projects {
 	margin-top: 0px;
@@ -1107,6 +1123,66 @@ footer {
 		magin-top: 30px;
 	}
 	
+}
+
+/*-----------------------------------------------------*/
+.slider {
+  width: 100%;
+  overflow: hidden;
+}
+
+.slides {
+  display: flex;
+  width: 400%;
+}
+
+.slide {
+  width: 25%;
+}
+
+.slide img {
+  width: 100%;
+}
+
+input[type="radio"] {
+  display: none;
+}
+
+.slides-navigation {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.slides-navigation label {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #fff;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.slides-navigation label:hover {
+  background: #ccc;
+}
+
+input[type="radio"]:checked ~ .slides .first {
+  margin-left: 0;
+}
+
+input[type="radio"]:checked ~ .slides .second {
+  margin-left: -25%;
+}
+
+input[type="radio"]:checked ~ .slides .third {
+  margin-left: -50%;
+}
+
+input[type="radio"]:checked ~ .slides .fourth {
+  margin-left: -75%;
 }
 
 
