@@ -664,9 +664,21 @@ footer {
 }
 
 
+/*======================Blinds Page====================*/
+.blinds-section {
+	/*background-color: rgb(150, 121, 105, 0.3);*/
+	
+	background-color: rgb(201, 219, 178, 0.3);
+}
+
+.blinds-catalogue-btn{
+    margin-left: 44.5%;
+}
 
 
-/*==========================================Responsiveness=================*/
+
+
+/*===============================================================================================================================================Responsiveness=================*/
 
 /*@media screen and (max-width: 600px) {*/
 
@@ -810,9 +822,12 @@ footer {
 
 footer {
     height: 425px;
-	margin-top: 450px;
+	
 }
 
+#contact {
+	margin-top: 450px;
+}
 
 
 #footer .col-3 .col.col-left .col-inner {
@@ -853,6 +868,27 @@ footer {
 #terms-conditions {
 	top: 300px;
 }
+
+
+
+/*=============================================Blinds Page=================================*/
+.blinds-margin {
+	margin-top: 200px;
+}
+
+.blinds-catalogue-btn {
+	margin-top: 250px;
+	margin-left: 30%;
+}
+
+.btn-blinds-order {
+	margin-left: 30%;
+}
+
+.footer-blinds-page {
+	margin-top: 0px;
+}
+
 
 }
 
