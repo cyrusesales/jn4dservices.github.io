@@ -7,7 +7,7 @@
 html {
     box-sizing: border-box;
     scroll-behavior: smooth;
-}
+}services-icon
 
 :root{
     --white: #f9f9f9;
@@ -673,6 +673,14 @@ footer {
 
 .blinds-catalogue-btn{
     margin-left: 44.5%;
+}
+
+
+/*========================Accordion Page================================*/
+.foldingdoor-section {
+	/*background-color: rgb(150, 121, 105, 0.3);*/
+	
+	background-color: rgb(201, 219, 178, 0.3);
 }
 
 
