@@ -83,10 +83,12 @@ ul{
 .menu a{
     display: block;
     padding: 30px;
-    color: var(--white);
+    /*color: var(--white);*/
+	color: white;
 }
 .menu a:hover{
-    background-color: var(--gray);
+    /*background-color: var(--gray);*/
+	background-color: var(--gray);
 }
 .nav{
     max-height: 0;
@@ -111,7 +113,8 @@ ul{
 
 .hamb-line::before,
 .hamb-line::after{
-    background: var(--white);
+    /*background: var(--white);*/
+	background: white;
     content: '';
     display: block;
     height: 100%;
@@ -686,7 +689,7 @@ footer {
 
 
 
-/*===============================================================================================================================================Responsiveness=================*/
+/*===============================================================================================================Responsiveness=================*/
 
 /*@media screen and (max-width: 600px) {*/
 
