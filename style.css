@@ -37,6 +37,7 @@ ul{
 	
     /*background-color: var(--black);*/
 	background-color: rgba(18, 0, 0, 0.9);
+	/*background-color: rgba(134, 150, 254, 0.9);*/
     box-shadow: 1px 1px 5px 0px var(--gray);
     /*position: sticky;*/
 	position: fixed;
@@ -51,10 +52,12 @@ ul{
 	*/
 }
 
+/* Logo */
 #header-img {
     float: left;
     height: 60px;
-    width: 165px;
+    /*width: 165px;*/
+	width: 180%;
     margin: 5px;
     
 }
@@ -65,7 +68,9 @@ ul{
     display: inline-block;
     color: var(--white);
     font-size: 60px;
-    margin-left: 30px;
+    margin-left: 130px;
+	margin-top: 5px;
+	/*margin-left: 30px;*/
 }
 
 
@@ -703,6 +708,20 @@ footer {
 /* Mobile-specific styles */
 @media only screen and (max-width: 480px) {
   /* Styles for screens up to 480px wide */
+  
+  /*====Header========*/
+  
+	#header-img {
+		
+		width: 140%;
+		
+		
+	}
+  
+	.logo {
+    
+	margin-left: 5px;
+	}
   
 	#welcome-section p { 
 		top: 450px;
