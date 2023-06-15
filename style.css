@@ -36,7 +36,8 @@ ul{
 .header{
 	
     /*background-color: var(--black);*/
-	background-color: rgba(18, 0, 0, 0.9);
+	/*background-color: rgba(18, 0, 0, 0.1);*/
+	background-color: rgba(255, 255, 255, 0.5);
 	/*background-color: rgba(134, 150, 254, 0.9);*/
     box-shadow: 1px 1px 5px 0px var(--gray);
     /*position: sticky;*/
@@ -57,7 +58,7 @@ ul{
     float: left;
     height: 60px;
     /*width: 165px;*/
-	width: 180%;
+	width: 150%;
     margin: 5px;
     
 }
@@ -81,7 +82,8 @@ ul{
     height: 100%;
     position: fixed;
     /*background-color: var(--black);*/
-	background-color: rgba(18, 0, 0, 0.9);
+	/*background-color: rgba(18, 0, 0, 0.9);*/
+	background-color: rgba(255, 255, 255, 0.9);
     overflow: hidden;
 
 }
@@ -89,11 +91,12 @@ ul{
     display: block;
     padding: 30px;
     /*color: var(--white);*/
-	color: white;
+	color: #FE5C36;
+	/*font-weight: bold;*/
 }
-.menu a:hover{
+.nav .menu a:hover{
     /*background-color: var(--gray);*/
-	background-color: var(--gray);
+	color: #4FAEB3;
 }
 .nav{
     max-height: 0;
@@ -108,7 +111,8 @@ ul{
 }/* Style label tag */
 
 .hamb-line {
-    background: var(--white);
+    /*background: var(--white);*/
+	background: #434343;
     display: block;
     height: 2px;
     position: relative;
@@ -119,7 +123,8 @@ ul{
 .hamb-line::before,
 .hamb-line::after{
     /*background: var(--white);*/
-	background: white;
+	/*background: white;*/
+	background: #434343;
     content: '';
     display: block;
     height: 100%;
@@ -712,8 +717,8 @@ footer {
   /*====Header========*/
   
 	#header-img {
-		
-		width: 140%;
+		/*width: 165px;*/
+		width: 110%;
 		
 		
 	}
