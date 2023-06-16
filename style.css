@@ -37,7 +37,7 @@ ul{
 	
     /*background-color: var(--black);*/
 	/*background-color: rgba(18, 0, 0, 0.1);*/
-	background-color: rgba(255, 255, 255, 0.5);
+	background-color: rgba(255, 255, 255, 0.9);
 	/*background-color: rgba(134, 150, 254, 0.9);*/
     box-shadow: 1px 1px 5px 0px var(--gray);
     /*position: sticky;*/
@@ -335,7 +335,8 @@ ul{
 
 /* ====================Products and Services===================== */
 #services-section{
-	background-color: rgb(201, 219, 178, 0.3);
+	/*background-color: rgb(201, 219, 178, 0.3);*/
+	background-color: rgb(79, 174, 179, 0.2);
 }
 
 #Services {
@@ -431,7 +432,8 @@ ul{
 /*=================Projects=================*/
 
 #projects-section {
-	background-color: rgba(169, 144, 126, 0.2);
+	/*background-color: rgba(169, 144, 126, 0.2);*/
+	background-color: rgba(254, 92, 54, 0.1);
 }
 
 #Projects {
@@ -551,7 +553,8 @@ ul{
 /* ======================Footer========================= */
 
 footer, #footer {
-    background-color: rgb(34, 10, 1);
+    /*background-color: rgb(34, 10, 1);*/
+	background-color: #FE5C36;
 }
 
 footer {
@@ -718,7 +721,7 @@ footer {
   
 	#header-img {
 		/*width: 165px;*/
-		width: 110%;
+		width: 100%;
 		
 		
 	}
